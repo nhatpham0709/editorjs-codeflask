@@ -1,0 +1,53 @@
+Arguments: 
+  /home/nhatpham0709/.nvm/versions/node/v18.15.0/bin/node /home/nhatpham0709/.nvm/versions/node/v18.15.0/bin/yarn add prismjs
+
+PATH: 
+  /home/nhatpham0709/.nvm/versions/node/v18.15.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.15.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/nhatpham0709/projects/kalapa/editorjs-codeflask/package.json: Unexpected token } in JSON at position 408
+      at JSON.parse (<anonymous>)
+      at /home/nhatpham0709/.nvm/versions/node/v18.15.0/lib/node_modules/yarn/lib/cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (/home/nhatpham0709/.nvm/versions/node/v18.15.0/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /home/nhatpham0709/.nvm/versions/node/v18.15.0/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "@calumk/editorjs-codeflask",
+    "description": "Codeflask, for EditorJS",
+    "version": "1.0.9",
+    "author": "Calum Knott",
+    "repository": "https://github.com/calumk/editorjs-codeflask",
+    "license": "MIT",
+    "main": "./dist/editorjs-codeflask.bundle.js",
+    "scripts": {
+      "build": "webpack --mode production"
+    },
+    "dependencies": {
+      "codeflask": "^1.4.1",
+      "nice-select2": "^2.0.0",
+    },
+    "devDependencies": {
+      "css-loader": "^6.7.1",
+      "style-loader": "^3.3.1",
+      "svg-inline-loader": "^0.8.2",
+      "webpack": "^5.72.0",
+      "webpack-cli": "^4.9.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

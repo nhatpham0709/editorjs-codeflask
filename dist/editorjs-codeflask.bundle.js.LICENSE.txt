@@ -1,9 +1,9 @@
 /**
-  * EditorJsCodeFlask Block for the Editor.js.
-  *
-  * @author Calum Knott (calum@calumk.com)
-  * @license The MIT License (MIT)
-  */
+ * EditorJsCodeFlask Block for the Editor.js.
+ *
+ * @author Calum Knott (calum@calumk.com)
+ * @license The MIT License (MIT)
+ */
 
 /**
  * Prism: Lightweight, robust, elegant syntax highlighting
